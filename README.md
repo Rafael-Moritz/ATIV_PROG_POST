@@ -3,23 +3,22 @@
 ## Função Lambda
 ![aws00](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/af5510ec-d23e-4004-b40c-6c975f24af0c)
 
-
-## Como Usar
-Passo 1: Acesse o Console de Gerenciamento da AWS e vá para o serviço Lambda.
-
-Passo 2: Clique em "Criar função" e selecione a opção "Autor do zero" para começar com uma função em branco.
-
-Passo 3: Dê um nome para a função, selecione a linguagem de programação desejada (por exemplo, Python) e clique em "Criar função".
-
-Passo 4: Na página de configuração da função, você verá um editor de código. Substitua o código da imagem.
-
-Passo 5: Clique em adicionar gatilho e clique em API Gateway
-
-Passo 6: Escolha requisição REST e Open.
-
 ## End Point
 
 https://pdfcgbkem3.execute-api.us-east-1.amazonaws.com/default/Post_func
+
+## Como Usar
+Passo 1: Inicie acessando o Console de Gerenciamento da AWS e navegue até o serviço Lambda.
+
+Passo 2: Inicie o processo clicando na opção "Criar função" e selecione "Começar do zero" para criar uma nova função a partir do zero.
+
+Passo 3: Nomeie a função, escolha a linguagem de programação desejada (por exemplo, Python) e finalize a criação da função.
+
+Passo 4: Ao acessar a página de configuração da função, você encontrará um editor de código. Substitua o código existente com o código necessário para a sua função.
+
+Passo 5: Agora, clique em "Adicionar gatilho" e escolha a opção "API Gateway".
+
+Passo 6: Opte por configurar uma requisição REST e selecione a opção "Abrir".
 
 ## Testes
 ### Tudo em ordem
@@ -50,7 +49,7 @@ https://pdfcgbkem3.execute-api.us-east-1.amazonaws.com/default/Post_func
 
 ![aws03](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/214450fe-4b11-4be4-aefb-ec5121117d9d)
 
-### senha errada
+### Senha errada
 <pre>
 {
   "body": "{\"name\": \"Afonso\", \"age\": 22, \"city\": \"SP\", \"password\": \"renato\"}"
