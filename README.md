@@ -1,7 +1,8 @@
 # ATIV_PROG_POST
 
 ## Função Lambda
-![aws0](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/409332b9-5085-43a0-a43c-a3b87e188148)
+![aws00](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/af5510ec-d23e-4004-b40c-6c975f24af0c)
+
 
 ## Como Usar
 Passo 1: Acesse o Console de Gerenciamento da AWS e vá para o serviço Lambda.
@@ -25,11 +26,11 @@ https://pdfcgbkem3.execute-api.us-east-1.amazonaws.com/default/Post_func
 
 <pre>
 {
-    "body": "{\"name\": \"Afonso\", \"age\": 22, \"city\": \"SP\"}"
+  "body": "{\"name\": \"Afonso\", \"age\": 22, \"city\": \"SP\", \"password\": \"afonsinho\"}"
 }
 </pre>
 
-![aws1](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/fefaf2e8-9e35-466b-a3ec-2489ca25c235)
+![aws01](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/2d4e930f-765b-4a57-8e00-b68643079a9f)
 
 ### JSON inválido
 <pre>
@@ -38,13 +39,22 @@ https://pdfcgbkem3.execute-api.us-east-1.amazonaws.com/default/Post_func
 }
 </pre>
 
-![aws2](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/e0d6da02-e5bf-4f93-acc2-a2dc60a15556)
+![aws02](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/60ab7395-5b73-4ff6-8cf4-912db797272c)
 
 ### string no lugar de um int
 <pre>
 {
-    "body": "{\"name\": \"Afonso\", \"age\": vinte e dois, \"city\": \"SP\"}"
+  "body": "{\"name\": \"Afonso\", \"age\": vinte e dois, \"city\": \"SP\", \"password\": \"afonsinho\"}"
 }
 </pre>
 
-![aws3](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/8bfb238f-23c6-4cbf-82fd-c39fcdda939b)
+![aws03](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/214450fe-4b11-4be4-aefb-ec5121117d9d)
+
+### senha errada
+<pre>
+{
+  "body": "{\"name\": \"Afonso\", \"age\": 22, \"city\": \"SP\", \"password\": \"renato\"}"
+}
+</pre>
+
+![aws04](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/cd1ba4d3-c922-41cd-ace7-7885af4b0dfd)
