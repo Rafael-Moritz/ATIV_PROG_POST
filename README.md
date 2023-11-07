@@ -1,7 +1,7 @@
 # ATIV_PROG_POST
 
 ## Função Lambda
-![aws0](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/b00a4a46-0f13-4577-82a1-b841a80f81a5)
+![aws0](https://github.com/Rafael-Moritz/ATIV_PROG_POST/assets/99282359/409332b9-5085-43a0-a43c-a3b87e188148)
 
 ## Como Usar
 Passo 1: Acesse o Console de Gerenciamento da AWS e vá para o serviço Lambda.
