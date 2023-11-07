@@ -7,18 +7,18 @@
 
 https://pdfcgbkem3.execute-api.us-east-1.amazonaws.com/default/Post_func
 
-## Como Usar
-Passo 1: Inicie acessando o Console de Gerenciamento da AWS e navegue até o serviço Lambda.
+## Passo a passo
+1: Inicie acessando o Console de Gerenciamento da AWS e navegue até o serviço Lambda.
 
-Passo 2: Inicie o processo clicando na opção "Criar função" e selecione "Começar do zero" para criar uma nova função a partir do zero.
+2: Inicie o processo clicando na opção "Criar função" e selecione "Começar do zero" para criar uma nova função a partir do zero.
 
-Passo 3: Nomeie a função, escolha a linguagem de programação desejada (por exemplo, Python) e finalize a criação da função.
+3: Nomeie a função, escolha a linguagem de programação desejada (por exemplo, Python) e finalize a criação da função.
 
-Passo 4: Ao acessar a página de configuração da função, você encontrará um editor de código. Substitua o código existente com o código necessário para a sua função.
+4: Ao acessar a página de configuração da função, você encontrará um editor de código. Substitua o código existente com o código necessário para a sua função.
 
-Passo 5: Agora, clique em "Adicionar gatilho" e escolha a opção "API Gateway".
+5: Agora, clique em "Adicionar gatilho" e escolha a opção "API Gateway".
 
-Passo 6: Opte por configurar uma requisição REST e selecione a opção "Abrir".
+6: Opte por configurar uma requisição REST e selecione a opção "Abrir".
 
 ## Testes
 ### Tudo em ordem
